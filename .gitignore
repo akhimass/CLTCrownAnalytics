@@ -2,6 +2,9 @@
 data/raw/*.html
 data/raw/*.json
 
+# R / editor noise
+.Rhistory
+
 # Python
 __pycache__/
 *.py[cod]
