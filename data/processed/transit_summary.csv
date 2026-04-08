@@ -1,0 +1,4 @@
+venue,transit_score,avg_travel_min_from_uncc,avg_travel_min_from_uptown,transit_penalty_vs_fc,reachable_transit_pop,reachable_pct,has_direct_lightrail,silver_line_planned
+Bojangles Coliseum,1,47,36,14.4,62000,57.9,False,True
+Bank of America Stadium,2,25,18,0.0,107000,100.0,True,False
+Truist Field,2,24,16,-0.6,107000,100.0,True,False

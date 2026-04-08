@@ -1,0 +1,18 @@
+date,opponent,hour,team,season,day_of_week,is_weekend,month,transit_score,transit_minutes,fc_same_day,knights_same_day,conflict_score,cannibalization_pct,cannibalization_pct_time_adjusted,conflict_risk,social_buzz_score,competing_event_score,competing_event_name,fc_opponent,fc_attendance_est,fc_conflict_hour,knights_opponent,knights_attendance_est,knights_conflict_hour
+2026-05-21,Jacksonville Waves,19,charlotte_crown,2026,Thursday,0,5,1,42,0,1,1,0.09,0.09,MODERATE,1.1,1.0,,,,,Gwinnett Stripers,7500.0,19.066666666666663
+2026-05-25,Greensboro Groove,19,charlotte_crown,2026,Monday,0,5,1,42,0,1,1,0.09,0.09,MODERATE,0.759,1.0,,,,,Jacksonville Jumbo Shrimp,7400.0,19.066666666666663
+2026-05-30,Savannah Steel,19,charlotte_crown,2026,Saturday,1,5,1,42,0,1,1,0.04,0.04,MODERATE,0.66,0.97,,,,,Jacksonville Jumbo Shrimp,7200.0,13.083333333333334
+2026-06-03,Jacksonville Waves,12,charlotte_crown,2026,Wednesday,0,6,1,42,0,0,0,0.0,0.0,LOW,0.66,1.0,,,,,,,
+2026-06-06,Savannah Steel,16,charlotte_crown,2026,Saturday,1,6,1,42,0,0,0,0.0,0.0,LOW,0.66,1.0,,,,,,,
+2026-06-14,Savannah Steel,14,charlotte_crown,2026,Sunday,1,6,1,42,0,1,1,0.04,0.04,MODERATE,0.8800000000000001,1.0,,,,,Oklahoma City Comets,7955.0,17.083333333333332
+2026-06-17,Greensboro Groove,19,charlotte_crown,2026,Wednesday,0,6,1,42,0,0,0,0.0,0.0,LOW,0.759,1.0,,,,,,,
+2026-07-30,Greensboro Groove,19,charlotte_crown,2026,Thursday,0,7,1,42,0,0,0,0.0,0.0,LOW,1.265,0.95,Night after MLS All-Star Game,,,,,,
+2026-08-01,Savannah Steel,16,charlotte_crown,2026,Saturday,1,8,1,42,0,0,0,0.0,0.0,LOW,0.66,1.0,,,,,,,
+2026-08-02,Jacksonville Waves,14,charlotte_crown,2026,Sunday,1,8,1,42,0,0,0,0.0,0.0,LOW,0.66,1.0,,,,,,,
+2026-08-05,Greensboro Groove,19,charlotte_crown,2026,Wednesday,0,8,1,42,0,1,1,0.09,0.09,MODERATE,0.759,1.0,,,,,Durham Bulls,7255.0,19.066666666666663
+2026-08-08,Savannah Steel,16,charlotte_crown,2026,Saturday,1,8,1,42,0,1,1,0.04,0.04,MODERATE,0.66,1.0,,,,,Durham Bulls,7200.0,18.083333333333332
+2026-08-09,Savannah Steel,14,charlotte_crown,2026,Sunday,1,8,1,42,0,1,1,0.04,0.04,MODERATE,0.57,1.0,,,,,Durham Bulls,7255.0,17.083333333333332
+2026-08-13,Jacksonville Waves,19,charlotte_crown,2026,Thursday,0,8,1,42,0,0,0,0.0,0.0,LOW,0.66,1.0,,,,,,,
+2026-08-15,Jacksonville Waves,16,charlotte_crown,2026,Saturday,1,8,1,42,1,0,1,0.12,0.12,HIGH,0.57,0.82,Charlotte FC vs Columbus Crew,Columbus Crew,31000.0,19.5,,,
+2026-08-22,Greensboro Groove,16,charlotte_crown,2026,Saturday,1,8,1,42,1,0,1,0.12,0.12,HIGH,0.759,0.93,Charlotte FC vs DC United,DC United,30600.0,19.5,,,
+2026-08-23,Greensboro Groove,14,charlotte_crown,2026,Sunday,1,8,1,42,0,0,0,0.0,0.0,LOW,0.6554999999999999,1.0,,,,,,,

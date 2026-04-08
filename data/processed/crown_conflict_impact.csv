@@ -1,0 +1,18 @@
+date,opponent,conflict_risk,fc_same_day,knights_same_day,conflict_penalty_pct,est_base_attendance,fans_lost_to_conflict,est_conflict_attendance
+2026-05-21,Jacksonville Waves,LOW,0,0,0.0,2275,0,2275
+2026-05-25,Greensboro Groove,MODERATE,0,1,4.0,2275,91,2184
+2026-05-30,Savannah Steel,MODERATE,0,1,4.0,2275,91,2184
+2026-06-03,Jacksonville Waves,MODERATE,0,1,4.0,2275,91,2184
+2026-06-06,Savannah Steel,HIGH,1,1,15.0,2275,342,1933
+2026-06-14,Savannah Steel,MODERATE,0,1,4.0,2275,91,2184
+2026-06-17,Greensboro Groove,MODERATE,0,1,4.0,2275,91,2184
+2026-07-30,Greensboro Groove,MODERATE,0,1,4.0,2275,91,2184
+2026-08-01,Savannah Steel,MODERATE,0,1,4.0,2275,91,2184
+2026-08-02,Jacksonville Waves,LOW,0,0,0.0,2275,0,2275
+2026-08-05,Greensboro Groove,MODERATE,0,1,4.0,2275,91,2184
+2026-08-08,Savannah Steel,LOW,0,0,0.0,2275,0,2275
+2026-08-09,Savannah Steel,LOW,0,0,0.0,2275,0,2275
+2026-08-13,Jacksonville Waves,MODERATE,0,1,4.0,2275,91,2184
+2026-08-15,Jacksonville Waves,HIGH,1,1,15.0,2275,342,1933
+2026-08-22,Greensboro Groove,HIGH,1,1,15.0,2275,342,1933
+2026-08-23,Greensboro Groove,LOW,0,0,0.0,2275,0,2275

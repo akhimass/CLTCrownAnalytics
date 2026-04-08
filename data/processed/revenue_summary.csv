@@ -1,0 +1,4 @@
+scenario,total_games,total_attendance,avg_fill_rate_pct,ticket_revenue,ancillary_revenue,total_revenue,avg_game_revenue
+Baseline (No Strategy),17,28015,47.1,476255,112060,588315,34607
+Strategy A (Promo + Pricing),17,46172,77.6,631342,323204,954546,56150
+Strategy B (Full: Shuttle + Star Marketing),17,48483,81.5,662442,339381,1001823,58931

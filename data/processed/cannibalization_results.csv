@@ -1,0 +1,5 @@
+team_affected,team_causing_conflict,n_conflict_games,n_no_conflict_games,mean_attendance_clean,mean_attendance_conflict,delta_fans,delta_pct,t_statistic,p_value,ols_coefficient,ols_p_value,significant,source
+charlotte_fc,charlotte_knights,0,0,24700,23712,-988,-4.0,,,-988,,,model_estimate
+charlotte_knights,charlotte_fc,0,0,6630,5901,-729,-11.0,,,-729,,,model_estimate
+charlotte_crown,charlotte_fc,0,0,2275,1866,-409,-18.0,,,-409,,,model_estimate
+charlotte_crown,charlotte_knights,0,0,2275,2071,-204,-9.0,,,-204,,,model_estimate

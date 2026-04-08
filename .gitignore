@@ -1,0 +1,11 @@
+# Scraped artifacts (inspect locally; do not commit)
+data/raw/*.html
+data/raw/*.json
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+*.egg-info/

@@ -1,0 +1,17 @@
+opponent,quality_tier,source
+Atlanta United,2,feature_engineering.FC_OPPONENT_TIERS
+Atlanta United FC,2,feature_engineering.FC_OPPONENT_TIERS
+Chicago Fire FC,1,feature_engineering.FC_OPPONENT_TIERS
+Columbus Crew,1,feature_engineering.FC_OPPONENT_TIERS
+DC United,1,feature_engineering.FC_OPPONENT_TIERS
+FC Cincinnati,2,feature_engineering.FC_OPPONENT_TIERS
+Inter Miami,3,feature_engineering.FC_OPPONENT_TIERS
+LA Galaxy,2,feature_engineering.FC_OPPONENT_TIERS
+MLS All-Star Game,3,feature_engineering.FC_OPPONENT_TIERS
+NYCFC,2,feature_engineering.FC_OPPONENT_TIERS
+Nashville SC,2,feature_engineering.FC_OPPONENT_TIERS
+New England Revolution,1,feature_engineering.FC_OPPONENT_TIERS
+New York City FC,2,feature_engineering.FC_OPPONENT_TIERS
+Philadelphia Union,1,feature_engineering.FC_OPPONENT_TIERS
+San Diego FC,1,feature_engineering.FC_OPPONENT_TIERS
+Toronto FC,1,feature_engineering.FC_OPPONENT_TIERS

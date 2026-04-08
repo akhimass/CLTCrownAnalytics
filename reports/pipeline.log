@@ -1,0 +1,345 @@
+2026-04-05 16:16:32,642 [INFO] pipeline: ============================================================
+2026-04-05 16:16:32,642 [INFO] pipeline: SCRAPE-ONLY — raw payloads + processed CSVs (no models / viz / report)
+2026-04-05 16:16:32,642 [INFO] pipeline: ============================================================
+2026-04-05 16:16:32,733 [INFO] scrapers.fc_scraper: Fetching FC season 2022 from https://fbref.com/en/squads/eb57545a/2022/matchlogs/all_comps/schedule/Charlotte-FC-Scores-and-Fixtures-All-Competitions
+2026-04-05 16:16:36,276 [ERROR] scrapers.base_scraper: HTTP 403 — https://fbref.com/en/squads/eb57545a/2022/matchlogs/all_comps/schedule/Charlotte-FC-Scores-and-Fixtures-All-Competitions
+2026-04-05 16:16:36,276 [WARNING] scrapers.fc_scraper: fbref scrape failed for 2022: 403 Client Error: Forbidden for url: https://fbref.com/en/squads/eb57545a/2022/matchlogs/all_comps/schedule/Charlotte-FC-Scores-and-Fixtures-All-Competitions — using seed data
+2026-04-05 16:16:36,278 [INFO] scrapers.fc_scraper: Fetching FC season 2023 from https://fbref.com/en/squads/eb57545a/2023/matchlogs/all_comps/schedule/Charlotte-FC-Scores-and-Fixtures-All-Competitions
+2026-04-05 16:16:38,193 [ERROR] scrapers.base_scraper: HTTP 403 — https://fbref.com/en/squads/eb57545a/2023/matchlogs/all_comps/schedule/Charlotte-FC-Scores-and-Fixtures-All-Competitions
+2026-04-05 16:16:38,193 [WARNING] scrapers.fc_scraper: fbref scrape failed for 2023: 403 Client Error: Forbidden for url: https://fbref.com/en/squads/eb57545a/2023/matchlogs/all_comps/schedule/Charlotte-FC-Scores-and-Fixtures-All-Competitions — using seed data
+2026-04-05 16:16:38,196 [INFO] scrapers.fc_scraper: Fetching FC season 2024 from https://fbref.com/en/squads/eb57545a/2024/matchlogs/all_comps/schedule/Charlotte-FC-Scores-and-Fixtures-All-Competitions
+2026-04-05 16:16:39,817 [ERROR] scrapers.base_scraper: HTTP 403 — https://fbref.com/en/squads/eb57545a/2024/matchlogs/all_comps/schedule/Charlotte-FC-Scores-and-Fixtures-All-Competitions
+2026-04-05 16:16:39,817 [WARNING] scrapers.fc_scraper: fbref scrape failed for 2024: 403 Client Error: Forbidden for url: https://fbref.com/en/squads/eb57545a/2024/matchlogs/all_comps/schedule/Charlotte-FC-Scores-and-Fixtures-All-Competitions — using seed data
+2026-04-05 16:16:39,820 [INFO] scrapers.fc_scraper: Fetching FC season 2025 from https://fbref.com/en/squads/eb57545a/2025/matchlogs/all_comps/schedule/Charlotte-FC-Scores-and-Fixtures-All-Competitions
+2026-04-05 16:16:41,610 [ERROR] scrapers.base_scraper: HTTP 403 — https://fbref.com/en/squads/eb57545a/2025/matchlogs/all_comps/schedule/Charlotte-FC-Scores-and-Fixtures-All-Competitions
+2026-04-05 16:16:41,610 [WARNING] scrapers.fc_scraper: fbref scrape failed for 2025: 403 Client Error: Forbidden for url: https://fbref.com/en/squads/eb57545a/2025/matchlogs/all_comps/schedule/Charlotte-FC-Scores-and-Fixtures-All-Competitions — using seed data
+2026-04-05 16:16:41,636 [INFO] pipeline: FC: 53 rows → processed/fc_games.csv
+2026-04-05 16:16:41,636 [INFO] scrapers.knights_scraper: Fetching Knights 2022 from https://www.thebaseballcube.com/content/minor_game_log/2022~14021/
+2026-04-05 16:16:43,498 [INFO] scrapers.base_scraper: GET https://www.thebaseballcube.com/content/minor_game_log/2022~14021/ → 200
+2026-04-05 16:16:43,534 [WARNING] scrapers.knights_scraper: thebaseballcube failed for 2022: 'NAType' object has no attribute 'astype' — using seed data
+2026-04-05 16:16:43,535 [INFO] scrapers.knights_scraper: Fetching Knights 2023 from https://www.thebaseballcube.com/content/minor_game_log/2023~14021/
+2026-04-05 16:16:45,264 [INFO] scrapers.base_scraper: GET https://www.thebaseballcube.com/content/minor_game_log/2023~14021/ → 200
+2026-04-05 16:16:45,291 [WARNING] scrapers.knights_scraper: thebaseballcube failed for 2023: 'NAType' object has no attribute 'astype' — using seed data
+2026-04-05 16:16:45,293 [INFO] scrapers.knights_scraper: Fetching Knights 2024 from https://www.thebaseballcube.com/content/minor_game_log/2024~14021/
+2026-04-05 16:16:48,551 [INFO] scrapers.base_scraper: GET https://www.thebaseballcube.com/content/minor_game_log/2024~14021/ → 200
+2026-04-05 16:16:48,579 [WARNING] scrapers.knights_scraper: thebaseballcube failed for 2024: 'NAType' object has no attribute 'astype' — using seed data
+2026-04-05 16:16:48,581 [INFO] scrapers.knights_scraper: Fetching Knights 2025 from https://www.thebaseballcube.com/content/minor_game_log/2025~14021/
+2026-04-05 16:16:50,607 [INFO] scrapers.base_scraper: GET https://www.thebaseballcube.com/content/minor_game_log/2025~14021/ → 200
+2026-04-05 16:16:50,634 [WARNING] scrapers.knights_scraper: thebaseballcube failed for 2025: 'NAType' object has no attribute 'astype' — using seed data
+2026-04-05 16:16:50,648 [INFO] pipeline: Knights: 164 rows → processed/knights_games.csv
+2026-04-05 16:16:50,649 [INFO] pipeline: Opponent quality → processed/fc_opponent_quality.csv
+2026-04-05 16:16:50,651 [INFO] scrapers.checkers_scraper: Fetching Checkers 2022 (season 68)
+2026-04-05 16:16:53,627 [INFO] scrapers.base_scraper: GET https://lscluster.hockeytech.com/feed/index.php?feed=statviewfeed&view=schedule&team=384&season=68&month=all&location=homeaway&key=50c2cd9b5e18e390&client_code=ahl&site_id=4&league_id=35&lang=en → 200
+2026-04-05 16:16:53,627 [WARNING] scrapers.checkers_scraper: HockeyTech failed for 2022: Expecting value: line 1 column 1 (char 0) — returning empty
+2026-04-05 16:16:53,627 [INFO] scrapers.checkers_scraper: Fetching Checkers 2023 (season 72)
+2026-04-05 16:16:55,394 [INFO] scrapers.base_scraper: GET https://lscluster.hockeytech.com/feed/index.php?feed=statviewfeed&view=schedule&team=384&season=72&month=all&location=homeaway&key=50c2cd9b5e18e390&client_code=ahl&site_id=4&league_id=35&lang=en → 200
+2026-04-05 16:16:55,394 [WARNING] scrapers.checkers_scraper: HockeyTech failed for 2023: Expecting value: line 1 column 1 (char 0) — returning empty
+2026-04-05 16:16:55,394 [INFO] scrapers.checkers_scraper: Fetching Checkers 2024 (season 76)
+2026-04-05 16:16:57,474 [INFO] scrapers.base_scraper: GET https://lscluster.hockeytech.com/feed/index.php?feed=statviewfeed&view=schedule&team=384&season=76&month=all&location=homeaway&key=50c2cd9b5e18e390&client_code=ahl&site_id=4&league_id=35&lang=en → 200
+2026-04-05 16:16:57,475 [WARNING] scrapers.checkers_scraper: HockeyTech failed for 2024: Expecting value: line 1 column 1 (char 0) — returning empty
+2026-04-05 16:16:57,475 [INFO] scrapers.checkers_scraper: Fetching Checkers 2025 (season 80)
+2026-04-05 16:17:00,932 [INFO] scrapers.base_scraper: GET https://lscluster.hockeytech.com/feed/index.php?feed=statviewfeed&view=schedule&team=384&season=80&month=all&location=homeaway&key=50c2cd9b5e18e390&client_code=ahl&site_id=4&league_id=35&lang=en → 200
+2026-04-05 16:17:00,932 [WARNING] scrapers.checkers_scraper: HockeyTech failed for 2025: Expecting value: line 1 column 1 (char 0) — returning empty
+2026-04-05 16:17:00,933 [WARNING] pipeline: Checkers: no rows (API/parse) — checkers_games.csv not updated
+2026-04-05 16:17:00,933 [INFO] pipeline: SCRAPE-ONLY complete.
+2026-04-06 13:02:29,340 [INFO] pipeline: ── STEP 1 (seed): Loading seed data ──
+2026-04-06 13:02:29,427 [INFO] pipeline: FC seed: 53 rows
+2026-04-06 13:02:29,434 [INFO] pipeline: Knights seed: 164 rows
+2026-04-06 13:10:17,120 [INFO] pipeline: ============================================================
+2026-04-06 13:10:17,120 [INFO] pipeline: CROWN ANALYTICS PIPELINE — STARTING
+2026-04-06 13:10:17,120 [INFO] pipeline: ============================================================
+2026-04-06 13:10:17,120 [INFO] pipeline: ── STEP 1 (seed): Loading seed data ──
+2026-04-06 13:10:17,290 [INFO] pipeline: FC seed: 53 rows
+2026-04-06 13:10:17,540 [INFO] pipeline: Knights seed: 164 rows
+2026-04-06 13:10:17,540 [INFO] pipeline: ── Weather: Open-Meteo archive for game dates ──
+2026-04-06 13:10:23,099 [WARNING] pipelines.weather_features: Open-Meteo fetch failed for 2026: 400 Client Error: Bad Request for url: https://archive-api.open-meteo.com/v1/archive?latitude=35.2271&longitude=-80.8431&start_date=2026-03-27&end_date=2026-09-19&daily=temperature_2m_max%2Ctemperature_2m_min%2Cprecipitation_sum%2Cwindspeed_10m_max&timezone=America%2FNew_York — using zeros for those dates
+2026-04-06 13:10:23,139 [INFO] pipelines.weather_features: Saved 211 rows → /Users/akhichappidi/crown-analytics/data/processed/game_weather.csv
+2026-04-06 13:10:23,139 [INFO] pipeline: ── Calendar: school session + holiday flags ──
+2026-04-06 13:10:23,149 [INFO] pipelines.calendar_features: Saved calendar_features → /Users/akhichappidi/crown-analytics/data/processed/calendar_features.csv (211 rows)
+2026-04-06 13:10:23,149 [INFO] pipeline: ── Events: competing entertainment calendar ──
+2026-04-06 13:10:23,151 [INFO] pipelines.event_calendar: Saved competing_events → /Users/akhichappidi/crown-analytics/data/processed/competing_events.csv
+2026-04-06 13:10:23,151 [INFO] pipeline: ── STEP 2: Building master calendar ──
+2026-04-06 13:10:23,153 [INFO] pipelines.build_master_calendar: Loaded 53 rows for fc
+2026-04-06 13:10:23,154 [INFO] pipelines.build_master_calendar: Loaded 164 rows for knights
+2026-04-06 13:10:23,201 [INFO] pipelines.build_master_calendar: Saved master calendar → /Users/akhichappidi/crown-analytics/data/processed/master_calendar.csv
+2026-04-06 13:10:23,201 [INFO] pipeline: Master calendar: 17 Crown home games
+2026-04-06 13:10:23,201 [INFO] pipeline: ── STEP 3: Training attendance models ──
+2026-04-06 13:10:49,542 [INFO] pipeline: ============================================================
+2026-04-06 13:10:49,542 [INFO] pipeline: CROWN ANALYTICS PIPELINE — STARTING
+2026-04-06 13:10:49,542 [INFO] pipeline: ============================================================
+2026-04-06 13:10:49,542 [INFO] pipeline: ── STEP 1 (seed): Loading seed data ──
+2026-04-06 13:10:49,711 [INFO] pipeline: FC seed: 53 rows
+2026-04-06 13:10:49,969 [INFO] pipeline: Knights seed: 164 rows
+2026-04-06 13:10:49,970 [INFO] pipeline: ── Weather: Open-Meteo archive for game dates ──
+2026-04-06 13:10:55,354 [WARNING] pipelines.weather_features: Open-Meteo fetch failed for 2026: 400 Client Error: Bad Request for url: https://archive-api.open-meteo.com/v1/archive?latitude=35.2271&longitude=-80.8431&start_date=2026-03-27&end_date=2026-09-19&daily=temperature_2m_max%2Ctemperature_2m_min%2Cprecipitation_sum%2Cwindspeed_10m_max&timezone=America%2FNew_York — using zeros for those dates
+2026-04-06 13:10:55,398 [INFO] pipelines.weather_features: Saved 211 rows → /Users/akhichappidi/crown-analytics/data/processed/game_weather.csv
+2026-04-06 13:10:55,399 [INFO] pipeline: ── Calendar: school session + holiday flags ──
+2026-04-06 13:10:55,408 [INFO] pipelines.calendar_features: Saved calendar_features → /Users/akhichappidi/crown-analytics/data/processed/calendar_features.csv (211 rows)
+2026-04-06 13:10:55,408 [INFO] pipeline: ── Events: competing entertainment calendar ──
+2026-04-06 13:10:55,409 [INFO] pipelines.event_calendar: Saved competing_events → /Users/akhichappidi/crown-analytics/data/processed/competing_events.csv
+2026-04-06 13:10:55,409 [INFO] pipeline: ── STEP 2: Building master calendar ──
+2026-04-06 13:10:55,410 [INFO] pipelines.build_master_calendar: Loaded 53 rows for fc
+2026-04-06 13:10:55,412 [INFO] pipelines.build_master_calendar: Loaded 164 rows for knights
+2026-04-06 13:10:55,460 [INFO] pipelines.build_master_calendar: Saved master calendar → /Users/akhichappidi/crown-analytics/data/processed/master_calendar.csv
+2026-04-06 13:10:55,460 [INFO] pipeline: Master calendar: 17 Crown home games
+2026-04-06 13:10:55,460 [INFO] pipeline: ── STEP 3: Training attendance models ──
+2026-04-06 13:10:56,611 [INFO] models.attendance_mlr: Loaded 53 fc rows for training
+2026-04-06 13:10:56,970 [INFO] models.attendance_mlr: Loaded 164 knights rows for training
+2026-04-06 13:10:56,971 [INFO] models.attendance_mlr: Training data provenance:
+data_source
+seed_estimated    207
+seed_verified      10
+2026-04-06 13:10:56,971 [WARNING] models.attendance_mlr: Training data missing optional MLR features (using subset): ['has_promo', 'month']
+2026-04-06 13:10:56,975 [INFO] models.attendance_mlr: OLS R²=0.243
+2026-04-06 13:10:56,981 [INFO] models.attendance_mlr: Ridge CV R²: 0.099 ± 0.133
+2026-04-06 13:10:56,982 [INFO] models.attendance_mlr: Model saved → /Users/akhichappidi/crown-analytics/data/processed/mlr_model.pkl
+2026-04-06 13:10:56,988 [INFO] pipeline: MLR R²=0.243
+2026-04-06 13:10:57,091 [INFO] models.attendance_mlr: Loaded 53 fc rows for training
+2026-04-06 13:10:57,372 [INFO] models.attendance_mlr: Loaded 164 knights rows for training
+2026-04-06 13:10:57,373 [INFO] models.attendance_mlr: Training data provenance:
+data_source
+seed_estimated    207
+seed_verified      10
+2026-04-06 13:10:58,372 [INFO] models.random_forest_model: RF  CV R²: 0.117 ± 0.044
+2026-04-06 13:10:58,373 [INFO] models.random_forest_model: GBM CV R²: 0.028 ± 0.314
+2026-04-06 13:11:01,572 [INFO] pipeline: RF model trained
+2026-04-06 13:11:01,573 [INFO] pipeline: ── STEP 4: Cannibalization analysis ──
+2026-04-06 13:11:01,582 [INFO] pipeline: ── STEP 5: Revenue model ──
+2026-04-06 13:11:01,585 [INFO] models.revenue_model: Saved revenue scenarios → /Users/akhichappidi/crown-analytics/data/processed/revenue_scenarios.csv
+2026-04-06 13:11:01,588 [INFO] pipeline: ── STEP 6: Transit analysis ──
+2026-04-06 13:11:01,589 [INFO] pipeline: 
+                     venue  transit_score  avg_travel_min_from_uncc  avg_travel_min_from_uptown  transit_penalty_vs_fc  reachable_transit_pop  reachable_pct  has_direct_lightrail  silver_line_planned
+0       Bojangles Coliseum              1                        47                          36                   14.4                  62000           57.9                 False                 True
+1  Bank of America Stadium              2                        25                          18                    0.0                 107000          100.0                  True                False
+2             Truist Field              2                        24                          16                   -0.6                 107000          100.0                  True                False
+2026-04-06 13:11:01,590 [INFO] pipeline: Shuttle net ROI: 500.0%
+2026-04-06 13:11:01,590 [INFO] pipeline: ── STEP 7: Generating visualizations ──
+2026-04-06 13:11:02,169 [INFO] viz.attendance_drivers: Saved → /Users/akhichappidi/crown-analytics/reports/01_driver_weights.png
+2026-04-06 13:11:02,169 [INFO] viz.revenue_charts: Generating all revenue charts...
+2026-04-06 13:11:02,257 [INFO] viz.revenue_charts: Saved → /Users/akhichappidi/crown-analytics/reports/06_scenario_comparison.png
+2026-04-06 13:11:02,523 [INFO] viz.revenue_charts: Saved → /Users/akhichappidi/crown-analytics/reports/07_game_by_game.png
+2026-04-06 13:11:02,612 [INFO] viz.revenue_charts: Saved → /Users/akhichappidi/crown-analytics/reports/08_fill_rate_waterfall.png
+2026-04-06 13:11:02,689 [INFO] viz.revenue_charts: Saved → /Users/akhichappidi/crown-analytics/reports/09_revenue_breakdown.png
+2026-04-06 13:11:02,781 [INFO] viz.revenue_charts: Saved → /Users/akhichappidi/crown-analytics/reports/10_conflict_revenue_impact.png
+2026-04-06 13:11:02,859 [INFO] viz.revenue_charts: Saved → /Users/akhichappidi/crown-analytics/reports/13_shuttle_roi.png
+2026-04-06 13:11:02,987 [INFO] viz.revenue_charts: Saved → /Users/akhichappidi/crown-analytics/reports/14_driver_mlr_vs_rf.png
+2026-04-06 13:11:02,988 [INFO] viz.revenue_charts: All revenue charts saved to reports/
+2026-04-06 13:11:02,991 [INFO] pipelines.build_master_calendar: Loaded 53 rows for fc
+2026-04-06 13:11:02,992 [INFO] pipelines.build_master_calendar: Loaded 164 rows for knights
+2026-04-06 13:11:03,336 [INFO] viz.conflict_calendar: Saved → /Users/akhichappidi/crown-analytics/reports/11_conflict_calendar.png
+2026-04-06 13:11:03,338 [INFO] pipelines.build_master_calendar: Loaded 53 rows for fc
+2026-04-06 13:11:03,339 [INFO] pipelines.build_master_calendar: Loaded 164 rows for knights
+2026-04-06 13:11:03,639 [INFO] viz.conflict_calendar: Saved → /Users/akhichappidi/crown-analytics/reports/12_schedule_table.png
+2026-04-06 13:11:03,639 [INFO] pipeline: All charts saved to reports/
+2026-04-06 13:11:03,639 [INFO] pipeline: ── STEP 8: Markdown report ──
+2026-04-06 13:11:03,732 [INFO] models.attendance_mlr: Loaded 53 fc rows for training
+2026-04-06 13:11:03,981 [INFO] models.attendance_mlr: Loaded 164 knights rows for training
+2026-04-06 13:11:03,982 [INFO] models.attendance_mlr: Training data provenance:
+data_source
+seed_estimated    207
+seed_verified      10
+2026-04-06 13:11:03,989 [INFO] pipelines.build_master_calendar: Loaded 53 rows for fc
+2026-04-06 13:11:03,990 [INFO] pipelines.build_master_calendar: Loaded 164 rows for knights
+2026-04-06 13:11:04,105 [INFO] viz.revenue_charts: Saved → /Users/akhichappidi/crown-analytics/reports/13_shuttle_roi.png
+2026-04-06 13:11:04,225 [INFO] viz.revenue_charts: Saved → /Users/akhichappidi/crown-analytics/reports/14_driver_mlr_vs_rf.png
+2026-04-06 13:11:04,233 [INFO] pipeline: ============================================================
+2026-04-06 13:11:04,233 [INFO] pipeline: PIPELINE COMPLETE — check data/processed/ and reports/
+2026-04-06 13:11:04,233 [INFO] pipeline: ============================================================
+2026-04-06 13:45:18,384 [INFO] pipeline: ============================================================
+2026-04-06 13:45:18,384 [INFO] pipeline: CROWN ANALYTICS PIPELINE — STARTING
+2026-04-06 13:45:18,384 [INFO] pipeline: ============================================================
+2026-04-06 13:45:18,384 [INFO] pipeline: ── STEP 1 (seed): Loading seed data ──
+2026-04-06 13:45:18,621 [INFO] pipeline: FC seed: 53 rows
+2026-04-06 13:45:19,035 [INFO] pipeline: Knights seed: 164 rows
+2026-04-06 13:45:19,035 [INFO] pipeline: ── Events: competing entertainment calendar ──
+2026-04-06 13:45:19,870 [WARNING] pipelines.event_calendar: Ticketmaster scrape failed (404 Client Error: Not Found for url: https://www.ticketmaster.com/venue/268115) — using hardcoded events only
+2026-04-06 13:45:19,875 [INFO] pipelines.event_calendar: Saved competing_events → /Users/akhichappidi/crown-analytics/data/processed/competing_events.csv
+2026-04-06 13:45:19,875 [INFO] pipeline: ── Calendar: school session + holiday flags ──
+2026-04-06 13:45:19,893 [INFO] pipelines.calendar_features: Saved calendar_features → /Users/akhichappidi/crown-analytics/data/processed/calendar_features.csv (211 rows)
+2026-04-06 13:45:19,893 [INFO] pipeline: ── SeatGeek: optional ticket-demand baseline ──
+2026-04-06 13:45:19,893 [WARNING] pipeline: SEATGEEK_CLIENT_ID not set — skipping demand pull
+2026-04-06 13:45:19,893 [INFO] pipeline: ── UpShot rosters: May 9+ check ──
+2026-04-06 13:45:21,860 [WARNING] scrapers.roster_scraper: Roster fetch failed https://crownupshot.com/roster/: BrowserType.launch: Executable doesn't exist at /Users/akhichappidi/Library/Caches/ms-playwright/chromium-1112/chrome-mac/Chromium.app/Contents/MacOS/Chromium
+╔════════════════════════════════════════════════════════════╗
+║ Looks like Playwright was just installed or updated.       ║
+║ Please run the following command to download new browsers: ║
+║                                                            ║
+║     playwright install                                     ║
+║                                                            ║
+║ <3 Playwright Team                                         ║
+╚════════════════════════════════════════════════════════════╝
+2026-04-06 13:45:21,979 [WARNING] scrapers.roster_scraper: Roster fetch failed https://wavesupshot.com/roster/: BrowserType.launch: Executable doesn't exist at /Users/akhichappidi/Library/Caches/ms-playwright/chromium-1112/chrome-mac/Chromium.app/Contents/MacOS/Chromium
+╔════════════════════════════════════════════════════════════╗
+║ Looks like Playwright was just installed or updated.       ║
+║ Please run the following command to download new browsers: ║
+║                                                            ║
+║     playwright install                                     ║
+║                                                            ║
+║ <3 Playwright Team                                         ║
+╚════════════════════════════════════════════════════════════╝
+2026-04-06 13:45:22,098 [WARNING] scrapers.roster_scraper: Roster fetch failed https://steelupshot.com/roster/: BrowserType.launch: Executable doesn't exist at /Users/akhichappidi/Library/Caches/ms-playwright/chromium-1112/chrome-mac/Chromium.app/Contents/MacOS/Chromium
+╔════════════════════════════════════════════════════════════╗
+║ Looks like Playwright was just installed or updated.       ║
+║ Please run the following command to download new browsers: ║
+║                                                            ║
+║     playwright install                                     ║
+║                                                            ║
+║ <3 Playwright Team                                         ║
+╚════════════════════════════════════════════════════════════╝
+2026-04-06 13:45:22,278 [WARNING] scrapers.roster_scraper: Roster fetch failed https://grooveupshot.com/roster/: BrowserType.launch: Executable doesn't exist at /Users/akhichappidi/Library/Caches/ms-playwright/chromium-1112/chrome-mac/Chromium.app/Contents/MacOS/Chromium
+╔════════════════════════════════════════════════════════════╗
+║ Looks like Playwright was just installed or updated.       ║
+║ Please run the following command to download new browsers: ║
+║                                                            ║
+║     playwright install                                     ║
+║                                                            ║
+║ <3 Playwright Team                                         ║
+╚════════════════════════════════════════════════════════════╝
+2026-04-06 13:45:22,280 [INFO] pipeline: UpShot rosters not yet announced (expected May 9, 2026)
+2026-04-06 13:45:22,280 [INFO] pipeline: ── Weather: Open-Meteo archive for game dates ──
+2026-04-06 13:45:30,057 [WARNING] pipelines.weather_features: Open-Meteo fetch failed for 2026: 400 Client Error: Bad Request for url: https://archive-api.open-meteo.com/v1/archive?latitude=35.2271&longitude=-80.8431&start_date=2026-03-27&end_date=2026-09-19&daily=temperature_2m_max%2Ctemperature_2m_min%2Cprecipitation_sum%2Cwindspeed_10m_max&timezone=America%2FNew_York — using zeros for those dates
+2026-04-06 13:45:30,102 [INFO] pipelines.weather_features: Saved 211 rows → /Users/akhichappidi/crown-analytics/data/processed/game_weather.csv
+2026-04-06 13:45:30,103 [INFO] pipeline: ── STEP 2: Building master calendar ──
+2026-04-06 13:45:30,106 [INFO] pipelines.build_master_calendar: Loaded 53 rows for fc
+2026-04-06 13:45:30,107 [INFO] pipelines.build_master_calendar: Loaded 164 rows for knights
+2026-04-06 13:45:30,173 [INFO] pipelines.build_master_calendar: Saved master calendar → /Users/akhichappidi/crown-analytics/data/processed/master_calendar.csv
+2026-04-06 13:45:30,173 [INFO] pipeline: Master calendar: 17 Crown home games
+2026-04-06 13:45:30,173 [INFO] pipeline: ── STEP 3: Training attendance models ──
+2026-04-06 13:45:31,380 [INFO] models.attendance_mlr: Loaded 53 fc rows for training
+2026-04-06 13:45:31,788 [INFO] models.attendance_mlr: Loaded 164 knights rows for training
+2026-04-06 13:45:31,789 [INFO] models.attendance_mlr: Training data provenance:
+data_source
+seed_estimated    207
+seed_verified      10
+2026-04-06 13:45:31,792 [INFO] models.attendance_mlr: OLS R²=0.271
+2026-04-06 13:45:31,798 [INFO] models.attendance_mlr: Ridge CV R²: 0.119 ± 0.163
+2026-04-06 13:45:31,799 [INFO] models.attendance_mlr: Model saved → /Users/akhichappidi/crown-analytics/data/processed/mlr_model.pkl
+2026-04-06 13:45:31,803 [INFO] pipeline: MLR R²=0.271
+2026-04-06 13:45:31,962 [INFO] models.attendance_mlr: Loaded 53 fc rows for training
+2026-04-06 13:45:32,407 [INFO] models.attendance_mlr: Loaded 164 knights rows for training
+2026-04-06 13:45:32,408 [INFO] models.attendance_mlr: Training data provenance:
+data_source
+seed_estimated    207
+seed_verified      10
+2026-04-06 13:45:33,387 [INFO] models.random_forest_model: RF  CV R²: 0.163 ± 0.045
+2026-04-06 13:45:33,388 [INFO] models.random_forest_model: GBM CV R²: 0.435 ± 0.181
+2026-04-06 13:45:36,955 [INFO] pipeline: RF model trained
+2026-04-06 13:45:36,956 [INFO] pipeline: ── STEP 4: Cannibalization analysis ──
+2026-04-06 13:45:36,966 [INFO] pipeline: ── STEP 5: Revenue model ──
+2026-04-06 13:45:36,969 [INFO] models.revenue_model: Saved revenue scenarios → /Users/akhichappidi/crown-analytics/data/processed/revenue_scenarios.csv
+2026-04-06 13:45:36,972 [INFO] pipeline: ── STEP 6: Transit analysis ──
+2026-04-06 13:45:36,973 [INFO] pipeline: 
+                     venue  transit_score  avg_travel_min_from_uncc  avg_travel_min_from_uptown  transit_penalty_vs_fc  reachable_transit_pop  reachable_pct  has_direct_lightrail  silver_line_planned
+0       Bojangles Coliseum              1                        47                          36                   14.4                  62000           57.9                 False                 True
+1  Bank of America Stadium              2                        25                          18                    0.0                 107000          100.0                  True                False
+2             Truist Field              2                        24                          16                   -0.6                 107000          100.0                  True                False
+2026-04-06 13:45:36,974 [INFO] pipeline: Shuttle net ROI: 500.0%
+2026-04-06 13:45:36,974 [INFO] pipeline: ── STEP 7: Generating visualizations ──
+2026-04-06 13:45:37,563 [INFO] viz.attendance_drivers: Saved → /Users/akhichappidi/crown-analytics/reports/01_driver_weights.png
+2026-04-06 13:45:37,563 [INFO] viz.revenue_charts: Generating all revenue charts...
+2026-04-06 13:45:37,660 [INFO] viz.revenue_charts: Saved → /Users/akhichappidi/crown-analytics/reports/06_scenario_comparison.png
+2026-04-06 13:45:37,934 [INFO] viz.revenue_charts: Saved → /Users/akhichappidi/crown-analytics/reports/07_game_by_game.png
+2026-04-06 13:45:38,028 [INFO] viz.revenue_charts: Saved → /Users/akhichappidi/crown-analytics/reports/08_fill_rate_waterfall.png
+2026-04-06 13:45:38,104 [INFO] viz.revenue_charts: Saved → /Users/akhichappidi/crown-analytics/reports/09_revenue_breakdown.png
+2026-04-06 13:45:38,198 [INFO] viz.revenue_charts: Saved → /Users/akhichappidi/crown-analytics/reports/10_conflict_revenue_impact.png
+2026-04-06 13:45:38,311 [INFO] viz.revenue_charts: Saved → /Users/akhichappidi/crown-analytics/reports/13_shuttle_roi.png
+2026-04-06 13:45:38,451 [INFO] viz.revenue_charts: Saved → /Users/akhichappidi/crown-analytics/reports/14_driver_mlr_vs_rf.png
+2026-04-06 13:45:38,451 [INFO] viz.revenue_charts: All revenue charts saved to reports/
+2026-04-06 13:45:38,453 [INFO] pipelines.build_master_calendar: Loaded 53 rows for fc
+2026-04-06 13:45:38,454 [INFO] pipelines.build_master_calendar: Loaded 164 rows for knights
+2026-04-06 13:45:38,778 [INFO] viz.conflict_calendar: Saved → /Users/akhichappidi/crown-analytics/reports/11_conflict_calendar.png
+2026-04-06 13:45:38,780 [INFO] pipelines.build_master_calendar: Loaded 53 rows for fc
+2026-04-06 13:45:38,781 [INFO] pipelines.build_master_calendar: Loaded 164 rows for knights
+2026-04-06 13:45:39,097 [INFO] viz.conflict_calendar: Saved → /Users/akhichappidi/crown-analytics/reports/12_schedule_table.png
+2026-04-06 13:45:39,097 [INFO] pipeline: All charts saved to reports/
+2026-04-06 13:45:39,097 [INFO] pipeline: ── STEP 8: Markdown report ──
+2026-04-06 13:45:39,244 [INFO] models.attendance_mlr: Loaded 53 fc rows for training
+2026-04-06 13:45:39,649 [INFO] models.attendance_mlr: Loaded 164 knights rows for training
+2026-04-06 13:45:39,650 [INFO] models.attendance_mlr: Training data provenance:
+data_source
+seed_estimated    207
+seed_verified      10
+2026-04-06 13:45:39,656 [INFO] pipelines.build_master_calendar: Loaded 53 rows for fc
+2026-04-06 13:45:39,657 [INFO] pipelines.build_master_calendar: Loaded 164 rows for knights
+2026-04-06 13:45:39,793 [INFO] viz.revenue_charts: Saved → /Users/akhichappidi/crown-analytics/reports/13_shuttle_roi.png
+2026-04-06 13:45:39,935 [INFO] viz.revenue_charts: Saved → /Users/akhichappidi/crown-analytics/reports/14_driver_mlr_vs_rf.png
+2026-04-06 13:45:39,945 [INFO] pipeline: ============================================================
+2026-04-06 13:45:39,945 [INFO] pipeline: PIPELINE COMPLETE — check data/processed/ and reports/
+2026-04-06 13:45:39,945 [INFO] pipeline: ============================================================
+2026-04-07 11:17:48,494 [INFO] pipeline: ── STEP 1 (seed): Loading seed data ──
+2026-04-07 11:17:48,649 [INFO] pipeline: FC after _from_seed: 53 rows, cols=['date', 'opponent', 'attendance', 'result', 'team', 'season', 'data_source'], has_promo in df=False
+2026-04-07 11:17:48,654 [INFO] pipeline: FC after _enrich: has_promo sum=21, promo_name non-empty=21
+2026-04-07 11:17:48,764 [INFO] pipeline: FC after engineer_fc_features: has_promo sum=21
+2026-04-07 11:17:48,767 [INFO] pipeline: FC seed: 53 rows → fc_games.csv
+2026-04-07 11:17:48,770 [INFO] pipeline: Knights after _from_seed: 164 rows, has_promo in df=False
+2026-04-07 11:17:48,774 [INFO] pipeline: Knights after _enrich: has_promo sum=92
+2026-04-07 11:17:49,067 [INFO] pipeline: Knights after engineer_knights_features: has_promo sum=92
+2026-04-07 11:17:49,069 [INFO] pipeline: Knights seed: 164 rows → knights_games.csv
+2026-04-07 14:50:04,158 [INFO] pipeline: ── STEP 1 (seed): Loading seed data ──
+2026-04-07 14:50:04,281 [INFO] pipeline: FC after _from_seed: 70 rows, cols=['date', 'opponent', 'attendance', 'result', 'team', 'season', 'data_source'], has_promo in df=False
+2026-04-07 14:50:04,290 [INFO] pipeline: FC after _enrich: has_promo sum=21, promo_name non-empty=21
+2026-04-07 14:50:04,447 [INFO] pipeline: FC after engineer_fc_features: has_promo sum=21
+2026-04-07 14:50:04,449 [INFO] pipeline: FC seed: 70 rows → fc_games.csv
+2026-04-07 14:50:04,452 [INFO] pipeline: Knights after _from_seed: 164 rows, has_promo in df=False
+2026-04-07 14:50:04,455 [INFO] pipeline: Knights after _enrich: has_promo sum=92
+2026-04-07 14:50:04,755 [INFO] pipeline: Knights after engineer_knights_features: has_promo sum=92
+2026-04-07 14:50:04,756 [INFO] pipeline: Knights seed: 164 rows → knights_games.csv
+2026-04-07 15:36:36,319 [INFO] pipeline: ── STEP 1 (seed): Loading seed data ──
+2026-04-07 15:36:36,421 [INFO] pipeline: FC after _from_seed: 69 rows, cols=['date', 'opponent', 'attendance', 'result', 'team', 'season', 'data_source'], has_promo in df=False
+2026-04-07 15:36:36,428 [INFO] pipeline: FC after _enrich: has_promo sum=21, promo_name non-empty=21
+2026-04-07 15:36:36,566 [INFO] pipeline: FC after engineer_fc_features: has_promo sum=21
+2026-04-07 15:36:36,568 [INFO] pipeline: FC seed: 69 rows → fc_games.csv
+2026-04-07 15:36:36,571 [INFO] pipeline: Knights after _from_seed: 164 rows, has_promo in df=False
+2026-04-07 15:36:36,575 [INFO] pipeline: Knights after _enrich: has_promo sum=92
+2026-04-07 15:36:36,886 [INFO] pipeline: Knights after engineer_knights_features: has_promo sum=92
+2026-04-07 15:36:36,889 [INFO] pipeline: Knights seed: 164 rows → knights_games.csv
+2026-04-07 15:44:52,079 [INFO] pipeline: ── STEP 1 (seed): Loading seed data ──
+2026-04-07 15:44:52,170 [INFO] pipeline: FC after _from_seed: 77 rows, cols=['date', 'opponent', 'attendance', 'result', 'team', 'season', 'data_source'], has_promo in df=False
+2026-04-07 15:44:52,173 [INFO] pipeline: FC after _enrich: has_promo sum=21, promo_name non-empty=21
+2026-04-07 15:44:52,312 [INFO] pipeline: FC after engineer_fc_features: has_promo sum=21
+2026-04-07 15:44:52,314 [INFO] pipeline: FC seed: 77 rows → fc_games.csv
+2026-04-07 15:44:52,316 [INFO] pipeline: Knights after _from_seed: 80 rows, has_promo in df=False
+2026-04-07 15:44:52,318 [INFO] pipeline: Knights after _enrich: has_promo sum=50
+2026-04-07 15:44:52,459 [INFO] pipeline: Knights after engineer_knights_features: has_promo sum=50
+2026-04-07 15:44:52,461 [INFO] pipeline: Knights seed: 80 rows → knights_games.csv
+2026-04-07 18:25:58,871 [INFO] pipeline: ── STEP 1 (seed): Loading seed data ──
+2026-04-07 18:25:58,974 [INFO] pipeline: FC after _from_seed: 77 rows, cols=['date', 'opponent', 'attendance', 'result', 'team', 'season', 'data_source'], has_promo in df=False
+2026-04-07 18:25:58,978 [INFO] pipeline: FC after _enrich: has_promo sum=21, promo_name non-empty=21
+2026-04-07 18:25:59,125 [INFO] pipeline: FC after engineer_fc_features: has_promo sum=21
+2026-04-07 18:25:59,127 [INFO] pipeline: FC seed: 77 rows → fc_games.csv
+2026-04-07 18:25:59,130 [INFO] pipeline: Knights after _from_seed: 80 rows, has_promo in df=False
+2026-04-07 18:25:59,132 [INFO] pipeline: Knights after _enrich: has_promo sum=50
+2026-04-07 18:25:59,283 [INFO] pipeline: Knights after engineer_knights_features: has_promo sum=50
+2026-04-07 18:25:59,284 [INFO] pipeline: Knights seed: 80 rows → knights_games.csv
+2026-04-07 18:25:59,287 [INFO] pipelines.build_master_calendar: Loaded 77 rows for fc
+2026-04-07 18:25:59,288 [INFO] pipelines.build_master_calendar: Loaded 80 rows for knights
+2026-04-07 18:25:59,335 [INFO] pipelines.build_master_calendar: Saved master calendar → /Users/akhichappidi/crown-analytics/data/processed/master_calendar.csv
+2026-04-07 18:28:34,200 [INFO] pipeline: ── STEP 1 (seed): Loading seed data ──
+2026-04-07 18:28:34,287 [INFO] pipeline: FC after _from_seed: 77 rows, cols=['date', 'opponent', 'attendance', 'result', 'team', 'season', 'data_source'], has_promo in df=False
+2026-04-07 18:28:34,290 [INFO] pipeline: FC after _enrich: has_promo sum=21, promo_name non-empty=21
+2026-04-07 18:28:34,437 [INFO] pipeline: FC after engineer_fc_features: has_promo sum=21
+2026-04-07 18:28:34,438 [INFO] pipeline: FC seed: 77 rows → fc_games.csv
+2026-04-07 18:28:34,441 [INFO] pipeline: Knights after _from_seed: 78 rows, has_promo in df=False
+2026-04-07 18:28:34,444 [INFO] pipeline: Knights after _enrich: has_promo sum=50
+2026-04-07 18:28:34,591 [INFO] pipeline: Knights after engineer_knights_features: has_promo sum=50
+2026-04-07 18:28:34,592 [INFO] pipeline: Knights seed: 78 rows → knights_games.csv
+2026-04-07 18:28:34,594 [INFO] pipelines.build_master_calendar: Loaded 77 rows for fc
+2026-04-07 18:28:34,595 [INFO] pipelines.build_master_calendar: Loaded 78 rows for knights
+2026-04-07 22:11:58,518 [INFO] pipeline: ── STEP 1 (seed): Loading seed data ──
+2026-04-07 22:11:58,670 [INFO] pipeline: FC after _from_seed: 62 rows, cols=['date', 'opponent', 'attendance', 'result', 'team', 'season', 'data_source'], has_promo in df=False
+2026-04-07 22:11:58,676 [INFO] pipeline: FC after _enrich: has_promo sum=21, promo_name non-empty=21
+2026-04-07 22:11:58,811 [INFO] pipeline: FC after engineer_fc_features: has_promo sum=21
+2026-04-07 22:11:58,814 [INFO] pipeline: FC seed: 62 rows → fc_games.csv
+2026-04-07 22:11:58,819 [INFO] pipeline: Knights after _from_seed: 80 rows, has_promo in df=False
+2026-04-07 22:11:58,822 [INFO] pipeline: Knights after _enrich: has_promo sum=51
+2026-04-07 22:11:59,010 [INFO] pipeline: Knights after engineer_knights_features: has_promo sum=51
+2026-04-07 22:11:59,011 [INFO] pipeline: Knights seed: 80 rows → knights_games.csv
+2026-04-07 22:13:33,415 [INFO] pipeline: ── STEP 1 (seed): Loading seed data ──
+2026-04-07 22:13:33,524 [INFO] pipeline: FC after _from_seed: 62 rows, cols=['date', 'opponent', 'attendance', 'result', 'team', 'season', 'data_source', 'hour'], has_promo in df=False
+2026-04-07 22:13:33,530 [INFO] pipeline: FC after _enrich: has_promo sum=21, promo_name non-empty=21
+2026-04-07 22:13:33,724 [INFO] pipeline: FC after engineer_fc_features: has_promo sum=21
+2026-04-07 22:13:33,726 [INFO] pipeline: FC seed: 62 rows → fc_games.csv
+2026-04-07 22:13:33,729 [INFO] pipeline: Knights after _from_seed: 80 rows, has_promo in df=False
+2026-04-07 22:13:33,732 [INFO] pipeline: Knights after _enrich: has_promo sum=51
+2026-04-07 22:13:33,885 [INFO] pipeline: Knights after engineer_knights_features: has_promo sum=51
+2026-04-07 22:13:33,886 [INFO] pipeline: Knights seed: 80 rows → knights_games.csv
